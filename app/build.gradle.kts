@@ -6,6 +6,12 @@ android {
     namespace = "com.evaluable.lanzador_de_dados"
     compileSdk {
         version = release(37)
+
+
+        buildFeatures {
+            viewBinding = true
+        }
+
     }
 
     defaultConfig {
